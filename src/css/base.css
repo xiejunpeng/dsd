@@ -1,0 +1,248 @@
+/*(1)清除默认样式*/
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+img,
+input,
+button {
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+/*去掉input等聚焦时的蓝色边框*/
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+select,
+input {
+    vertical-align: middle;
+}
+
+/*select, input, textarea { font-size:12px; margin:0; }*/
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table {
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #666;
+}
+
+/*（2）添加公共样式*/
+/*body {
+    font:12px Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff;
+}*/
+/*清除浮动（不管）*/
+.clearfix:before,
+.clearfix:after {
+    /*清楚浮动*/
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+/*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+/*公共类*/
+.container {
+    /*内容、版心 提取 */
+    width: 1200px;
+    /*background-color:yellow;*/
+    margin: 0 auto;
+
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.ac {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+* {
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+/* 首页的公共类 */
+.icon-a-all {
+    display: block;
+    background-image: url(../img/a.png);
+    background-position: -280px -325px;
+    background-size: 589px;
+    width: 14px;
+    height: 14px;
+}
+
+.t {
+    position: relative;
+    display: block;
+    color: #666;
+    margin-bottom: 12px;
+    line-height: 15px;
+    padding-left: 7px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.t:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 14px;
+    background-color: #666;
+}
+
+/* 第五个盒子的公共类 */
+.W_index_block .index_floor,
+.W_index_block .tp_list {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.W_main img {
+    border: 0;
+    display: inline-block;
+}
+
+/* 列表页的公共类 */
+.elps2 {
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    display: -webkit-box;
+}
+
+.elps1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.icon-a-l-arrow01 {
+    display: block;
+    background-image: url(../img/a.png);
+    background-position: -507px -38px;
+    background-size: 589px;
+    width: 28px;
+    height: 28px;
+}
+
+.icon-a-r-arrow01 {
+    display: block;
+    background-image: url(../img/a.png);
+    background-position: -507px 0;
+    background-size: 589px;
+    width: 29px;
+    height: 28px;
+}
+
+.icon-a-l-arrow01,
+.icon-a-r-arrow01 {
+    text-indent: -999em;
+}
+
+/* 列表页选项卡 */
+/* .on {
+    border-bottom: 3px solid #cc9952;
+    font-weight: 700;
+    color: #cc9952;
+} */

@@ -1,0 +1,1 @@
+"use strict";$(function(){var o=!0;$("#shopdibu").click(function(){o?$("#box").stop().animate({right:-1},1e3):$("#box").stop().animate({right:-260},1e3),o=!o}),backtop.onclick=function(){var n=setInterval(function(){var o=window.scrollY;0<o?(window.scrollTo(0,o-20),console.log(o-20)):clearInterval(n)},30)}});

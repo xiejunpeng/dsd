@@ -1,0 +1,224 @@
+body {
+  background: #FAFAFA;
+  min-width: 990px;
+  height: 100%; }
+
+#W_main {
+  width: 100%;
+  min-width: 990px;
+  margin: 0 auto;
+  background: #fff; }
+  #W_main .W_main_head {
+    width: 100%;
+    height: 100px; }
+    #W_main .W_main_head .W_main_head_logo {
+      width: 1000px;
+      margin: 25px auto 0; }
+      #W_main .W_main_head .W_main_head_logo h6 a {
+        width: 121px;
+        display: block; }
+  #W_main .W_main_content {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background: #a5a5a5; }
+    #W_main .W_main_content .login-bg {
+      position: absolute;
+      width: 100%;
+      height: 580px;
+      top: 0;
+      left: 0;
+      background-repeat: no-repeat;
+      background-position: top center; }
+    #W_main .W_main_content a {
+      display: block;
+      background-image: url(../img/regbanner.jpg); }
+    #W_main .W_main_content .W_main_content_login {
+      width: 1000px;
+      margin: 0 auto;
+      position: relative; }
+      #W_main .W_main_content .W_main_content_login .loginIframeWrap {
+        position: absolute;
+        right: 0;
+        top: 50px;
+        border: none;
+        background-color: #fff; }
+        #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark {
+          width: 380px;
+          height: 460px;
+          position: relative;
+          background: #fff; }
+          #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .login_tab {
+            overflow: hidden;
+            width: 269px;
+            margin: 0 auto;
+            padding: 40px 0 20px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .login_tab span {
+              height: 26px;
+              line-height: 26px;
+              font-size: 20px;
+              color: grey;
+              float: left;
+              width: 134px;
+              text-align: center;
+              cursor: pointer; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .login_tab em {
+              float: left;
+              background: #ddd;
+              height: 24px;
+              font-size: 0;
+              width: 1px;
+              margin-top: 1px; }
+          #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark p {
+            overflow: hidden; }
+          #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login {
+            display: block;
+            width: 300px;
+            margin: 0 auto; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login i {
+              font-size: 14px;
+              color: #cc5252;
+              line-height: 19px;
+              margin-top: 8px;
+              display: block;
+              padding-left: 10px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login p {
+              overflow: hidden; }
+              #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login p a {
+                color: #999;
+                font-size: 14px;
+                background-image: none; }
+              #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login p input {
+                width: 100%;
+                display: block;
+                box-sizing: border-box;
+                height: 44px;
+                margin-top: 12px;
+                line-height: 44px;
+                border: 1px solid #ddd;
+                padding-left: 10px; }
+              #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login p i {
+                font-size: 14px;
+                color: #cc5252;
+                line-height: 19px;
+                margin-top: 8px;
+                display: block;
+                padding-left: 10px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .captcha_wrap input {
+              width: 200px;
+              margin-right: 4px; }
+              #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .captcha_wrap input input {
+                width: 100%;
+                display: block;
+                box-sizing: border-box;
+                height: 44px;
+                margin-top: 12px;
+                line-height: 44px;
+                border: 1px solid #ddd;
+                padding-left: 10px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .captcha_wrap .img-wrap {
+              display: inline-block;
+              width: 94px;
+              height: 42px;
+              border: 1px solid #ddd;
+              margin-top: 12px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .message_code input {
+              width: 200px;
+              margin-right: 4px;
+              float: left; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .message_code a {
+              float: left;
+              width: 96px;
+              height: 44px;
+              background: #b1b1b1;
+              line-height: 44px;
+              text-align: center;
+              font-size: 14px;
+              color: #fff;
+              margin-top: 12px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .login {
+              background: #cc5252;
+              text-align: center;
+              font-size: 18px;
+              color: #fff;
+              margin-bottom: 12px;
+              border: none;
+              padding: 0;
+              cursor: pointer;
+              width: 100%;
+              display: block;
+              box-sizing: border-box;
+              height: 44px;
+              margin-top: 12px;
+              line-height: 44px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .pos {
+              padding-left: 147px;
+              margin-top: 70px; }
+              #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .pos a {
+                float: left;
+                font-size: 16px;
+                color: #999;
+                line-height: 22px;
+                position: relative; }
+              #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .member_login .pos em {
+                font-size: 16px;
+                color: #ccc;
+                line-height: 22px;
+                float: left;
+                width: 25px;
+                text-align: center; }
+          #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .code_login {
+            display: none;
+            position: relative; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .code_login .scan_code_login {
+              margin-top: 20px; }
+              #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .code_login .scan_code_login .qr_code {
+                width: 340px;
+                height: 183px;
+                margin: 0 auto 20px;
+                position: relative; }
+                #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .code_login .scan_code_login .qr_code .qr_code_img {
+                  position: absolute;
+                  left: 50%;
+                  margin-left: -91.5px;
+                  z-index: 10;
+                  width: 183px;
+                  height: 183px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .code_login p {
+              font-size: 16px;
+              color: #666;
+              line-height: 21px;
+              text-align: center;
+              margin-bottom: 12px; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .code_login em {
+              font-size: 16px;
+              color: #cc5252;
+              cursor: pointer; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .code_login i {
+              font-size: 16px;
+              color: #999; }
+            #W_main .W_main_content .W_main_content_login .loginIframeWrap .W_login_mark .code_login a {
+              width: 160px;
+              height: 40px;
+              margin: 27px auto 0;
+              display: block;
+              border: 1px solid #999;
+              border-radius: 100px;
+              font-size: 16px;
+              color: #666;
+              text-align: center;
+              line-height: 40px;
+              background: rgba(255, 255, 255, 0); }
+  #W_main .W_pt_footer {
+    border-top: 1px solid #eee;
+    padding: 50px 0;
+    width: 640px;
+    margin: 0 auto; }
+    #W_main .W_pt_footer p {
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+      line-height: 20px; }
+
+/*# sourceMappingURL=login.css.map */

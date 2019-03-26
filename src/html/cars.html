@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>cars</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/cars.css">
+	<script src="../lib/jquery-1.10.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/cars.js"></script>
+</head>
+
+<body>
+	<div id="wanbiaowang">
+		<!-- 头部 -->
+		<div class="W_home_head">
+			<div class="W_top_banner ">
+				<div class="container">
+					<img src="../img/W_top_banner.jpg" alt="" class="container">
+					<div class="close_slider icon-a-close01"></div>
+				</div>
+			</div>
+			<div class="W_pt_top">
+				<div class="container">
+					<div class="pt_top_wrap clearfix">
+						<div class="pt_top_left fl">
+							<a href="javascript:;" class="to_introduction">正品保障，免息分期！</a>
+						</div>
+						<div class="pt_top_right fr">
+							<div class="pt_top_login clearfix fl"> <a href="html/login.html">请登录</a> <a href="html/reg.html" style="color:#ae0f17;">注册即送3500元大礼包</a></div>
+							<div class="pt_top_others fl"> <span class="line">|</span> <a target="_blank" href="javascript:;" class="cart_line">购物车<span
+									 class="cart_count h">(<i>0</i>)</span></a>
+								<div class="a_hover fl">
+									<a target="_blank" href="javascript:;" class="wb_mobile_a">客户服务</a>
+									<div class="wb_dropdown">
+										<div class="dropdown_line">
+											<ul>
+												<li><a href="javascript:;" class="ntalk_pre CUSTOMER-SERVICE">客户顾问</a></li>
+												<li><a href="javascript:;" class="ntalk_after CUSTOMER-SERVICE" after-service-code="wx_1000_1515726262308">售后维修</a></li>
+												<li><a target="_blank" href="javascript:;">帮助中心</a></li>
+												<li><a target="_blank" href="javascript:;">办理信用卡</a></li>
+											</ul>
+											<p class="teltxt" style="margin-top:12px;">服务专线：400-883-2688</p>
+											<p class="teltxt">外呼号码：020-83931899</p>
+										</div>
+									</div>
+								</div> <a target="_blank" href="javascript:;" class="fl">会员福利</a> <span class="line">|</span>
+								<a href="javascript:;" class="fl">ENGLISH</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="W_pt_head">
+				<div class="container">
+					<div class="head_wrap clearfix">
+						<div class="head_left fl">
+							<h1 class="wb_logo fl"> <a href="javascript:;" title="正品名表 终身服务"><img src="../img/logo-icon.png" alt=""></a></h1>
+							<a target="_blank" href="javascript:;" class="wb_act_link fl"><img src="../img/slogan-02242018.png" alt=""></a>
+						</div>
+						<div class="order_head_right cart_head_right fr">
+							<ul>
+								<li class="on"><i class="i_on"></i><span style="color:#cc5252">购物车</span></li>
+								<li><i class="i_02"></i><span>填写订单信息</span></li>
+								<li><i class="i_02"></i><span>支付订单</span></li>
+								<li><i class="i_02"></i><span>等待签收</span></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- 主体 -->
+		<div class="W_main">
+			<div class="cart_wrap">
+				<h2 class="tit_h2">全部商品（<em id="allQuantity">1</em>）</h2>
+				<div class="cart_nav">
+					<dl class="clearfix fl">
+						<dt class="select_tik">
+							<input type="checkbox">
+						</dt>
+						<dd class="all_txt">全选</dd>
+						<dd class="msg_txt">商品信息</dd>
+					</dl>
+					<ul class="clearfix fr">
+						<li>单价</li>
+						<li>数量</li>
+						<li>小计</li>
+						<li>操作</li>
+					</ul>
+				</div>
+				<div class="cart-content">
+					<div class="normal-goods">
+						<div class="W_store_floor">
+							<!-- <div class="store_top clearfix">
+								<span class="select_tik fl">
+									<input type="checkbox">
+								</span>
+								<a href="javascript:;" class="store_name fl">天梭TISSOT</a>
+							</div>
+							<div class="goods_floor clearfix">
+								<div class="goods_info fl clearfix">
+									<div class="goods_right clearfix">
+										<span class="select_tik fl">
+											<input type="checkbox">
+										</span>
+										<a href="javascript:;" target="_blank">
+											<div class="goods_img fl">
+												<img src="../img/1.jpg" alt="">
+											</div>
+											<div class="goods_txt fl">
+												<div class="goods_a">
+													<p class="p1">【天梭原装正品，全球联保两年】天梭TISSOT-力洛克系列T006.407.11.033.00 自动机械男表</p>
+													<p class="specifications">钢 银色 精钢</p>
+												</div>
+											</div>
+										</a>
+										<ul class="fr">
+											<li class="unit_price"> ¥<em class="danjia">3680</em></li>
+											<li class="goods_num">
+												<span class="reduce calc-btns">-</span>
+												<input type="text" class="num" value="1" data-stock="1" readonly="">
+												<span class="add calc-btns">+</span>
+											</li>
+											<li class="total_price">¥<em class="subTotal">6140</em></li>
+											<li class="others">
+												<a href="javascript:;" class="delete_goods">删除</a>
+												<a href="javascript:;" class="to_collection">移入收藏</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<!-- 结算 -->
+				<div class="W_settle_floor queren">
+					<ul class="clearfix">
+						<li class="select_tik fl">
+							<span>
+								<input type="checkbox" class="quanxuan">
+							</span>
+						</li>
+						<li class="sel_all_txt"><a href="javascript:void(0);">全选</a></li>
+						<li class="delete_goods"><a href="javascript:void(0);">删除</a></li>
+						<li class="move_in_collect"><a href="javascript:void(0);">移入收藏</a></li>
+						<li class="clear_fail_goods"><a href="javascript:void(0);">清空失效商品</a></li>
+						<li class="choose_num">已选商品<em id="selectedQuantity">0</em>件</li>
+						<li class="settle_btn"><a href="javascript:void(0);">结算</a></li>
+						<li class="settle_price fr">
+							<p class="p1">
+								合计
+								<span>¥<i id="payableAmount">0</i></span>
+							</p>
+							<p class="p2">
+								总额&nbsp;¥
+								<em id="goodsAmount">0</em>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="W_pt_footer">
+			<!-- nav -->
+			<div class="pt_footer_ribbon">
+				<div class="footer_ribbon_a clearfix container">
+					<a rel="nofollow" href="javascript:;">
+						<span class="icon-a-rib01"></span>
+						正品保障
+					</a>
+					<a rel="nofollow" href="javascript:;">
+						<span class="icon-a-rib02"></span>
+						免息分期
+					</a>
+					<a rel="nofollow" href="javascript:;">
+						<span class="icon-a-rib03"></span>
+						全球联保
+					</a>
+					<a rel="nofollow" href="javascript:;">
+						<span class="icon-a-rib04"></span>
+						假一赔三
+					</a>
+					<a rel="nofollow" href="javascript:;">
+						<span class="icon-a-rib05"></span>
+						终身售后
+					</a>
+				</div>
+			</div>
+			<!-- 中间内容 -->
+			<div class="pt_footer_inst clearfix container">
+				<!-- 左边 -->
+				<div class="inst_left fl">
+					<div class="content_number">
+						<div class="number_info">
+							<p class="p1">客服电话</p>
+							<p class="p2">400-883-2688</p>
+						</div>
+						<div class="number_info out_line">
+							<p class="p1">外呼电话</p>
+							<p class="p2">020-83931899</p>
+						</div>
+					</div>
+					<p class="p4">
+						<a href="javascript:;" class="CUSTOMER-SERVICE">售后维修</a>
+					</p>
+				</div>
+				<!-- 中间 -->
+				<div class="inst_middle fl">
+					<!-- 1 -->
+					<dl>
+						<dt>新手指南</dt>
+						<dd>
+							<a target="_blank" href="javascript:;">注册新会员</a>
+							<a target="_blank" href="javascript:;">购物流程</a>
+							<a target="_blank" href="javascript:;">手表小知识</a>
+							<a target="_blank" href="javascript:;">退换货流程</a>
+						</dd>
+					</dl>
+					<!-- 2 -->
+					<dl>
+						<dt>支 付</dt>
+						<dd>
+							<a target="_blank" href="javascript:;">注册新会员</a>
+							<a target="_blank" href="javascript:;">购物流程</a>
+							<a target="_blank" href="javascript:;">手表小知识</a>
+							<a target="_blank" href="javascript:;">退换货流程</a>
+						</dd>
+					</dl>
+					<!-- 3 -->
+					<dl>
+						<dt>配 送</dt>
+						<dd>
+							<a target="_blank" href="javascript:;">注册新会员</a>
+							<a target="_blank" href="javascript:;">购物流程</a>
+							<a target="_blank" href="javascript:;">手表小知识</a>
+							<a target="_blank" href="javascript:;">退换货流程</a>
+						</dd>
+					</dl>
+					<!-- 4 -->
+					<dl>
+						<dt>万表保障</dt>
+						<dd>
+							<a target="_blank" href="javascript:;">注册新会员</a>
+							<a target="_blank" href="javascript:;">购物流程</a>
+							<a target="_blank" href="javascript:;">手表小知识</a>
+							<a target="_blank" href="javascript:;">退换货流程</a>
+						</dd>
+					</dl>
+					<!-- 5 -->
+					<dl>
+						<dt>服务中心</dt>
+						<dd>
+							<a target="_blank" href="javascript:;">注册新会员</a>
+							<a target="_blank" href="javascript:;">购物流程</a>
+							<a target="_blank" href="javascript:;">手表小知识</a>
+							<a target="_blank" href="javascript:;">退换货流程</a>
+						</dd>
+					</dl>
+				</div>
+				<!-- 右边 -->
+				<div class="footer_ggt fl">
+					<a target="_blank" href="javascript:;">
+						<img src="../img/footer_ggt.jpg" alt="">
+					</a>
+				</div>
+			</div>
+			<!-- 底部内容 -->
+			<div class="pt_footer_copyright">
+				<div class="footer_wrap container">
+					<div class="wb_link">
+						<div class="wb_friend_links">
+							<a target="_blank" href="javascript:;">万表app</a>
+							<a target="_blank" href="javascript:;">万表名匠</a>
+							<a target="_blank" href="javascript:;">万表app</a>
+							<a target="_blank" href="javascript:;">万表app</a>
+							<a target="_blank" href="javascript:;">万表app</a>
+							<a target="_blank" href="javascript:;">万表app</a>
+							<a target="_blank" href="javascript:;">万表app</a>
+							<a target="_blank" href="javascript:;">万表app</a>
+							<a target="_blank" href="javascript:;">万表app</a>
+							<a target="_blank" href="javascript:;">></a>
+						</div>
+					</div>
+					<div class="wb_corp">
+						<p>
+							万表网名表商城 版权所有 2008-2018
+							<a target="_blank" href="javascript:; " rel="nofollow">
+								ICP备案证书号:粤ICP备09108738号
+							</a>
+							网监备案:4401060103141
+						</p>
+						<p>广州市万表科技股份有限公司 地址:广州市番禺区番禺大道北60-1号</p>
+						<p>Copyright 2008-2017 WWW.WBIAO.CN.LTD ALL RIGHT RESERVED.</p>
+					</div>
+				</div>
+				<div class="wb_filing">
+					<div class="wb_certificate">
+						<a target="_blank" rel="nofollow" href="javascript:;" title="红盾电子">
+							<img src="../img/wb_certificate01.png" alt=""></a> <a target="_blank" rel="nofollow" href="javascript:;" title="可信网站">
+							<img src="../img/wb_certificate02.png" alt=""></a> <a target="_blank" rel="nofollow" href="javascript:;" title="网信认证">
+							<img src="../img/wb_certificate03.png" alt="">
+						</a>
+					</div>
+					<div class="wb_link">
+						<div class="wb_friend_links">
+							<a target="_blank" href="javascript:;l">联系QQ3268217127sss</a>
+							<a href="javascript:;">折800网</a> <a target="_blank" href="javascript:;">音乐巴士</a>
+							<a href="javascript:;">聚美优品优惠券</a> <a target="_blank" href="javascript:;">手表问答</a>
+							<a href="javascript:;">搜了网</a> <a target="_blank" href="javascript:;">海鸥</a>
+							<a href="javascript:;">健客网上药店</a> <a target="_blank" href="javascript:;">律师</a>
+							<a href="javascript:;">B2B平台</a> <span class="more_link">&gt;</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

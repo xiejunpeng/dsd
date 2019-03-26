@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>reg</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/reg.css">
+	<script src="../lib/jquery-1.10.1.min.js"></script>
+	<script src="../lib/suijishu/suijishu.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/reg.js"></script>
+</head>
+
+<body>
+	<div id="W_main">
+		<div class="W_main_head">
+			<div class="W_main_head_content">
+				<a href="javascript:;">
+					<img src="../img/logo-icon.png" alt="">
+				</a>
+				<a target="_blank" href="javascript:;" class="wb_act_link fl">
+					<img src="../img/slogan01.png" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="W_main_box">
+			<div class="W_main_box_content">
+				<h5>注册万表会员</h5>
+				<div class="content_box">
+					<div class="box">
+						<p>
+							<em class="icon-a-phone-icon"></em>
+							<input type="text" class="ti" id="mobile" placeholder="请输入手机号码" maxlength="11">
+						</p>
+						<i id="i1"></i>
+					</div>
+					<div class="box">
+						<p>
+							<em class="icon-a-note-code"></em>
+							<!-- <input type="text" class="ti imgCaptchaWrap fl" placeholder="请输入图形验证码" maxlength="11"> -->
+							<!-- <center> -->
+							<!-- 图片 -->
+							<!-- <span class="identi lock"></span> -->
+							<input type="text" class="topAlign ti imgCaptchaWrap fl" id="verify" placeholder="请输入图形验证码"
+								name="verify" required>
+							<canvas width="100" height="40" id="verifyCanvas" style="display: none;"></canvas>
+							<img id="code_img" class="r_imgCaptcha fr">
+							<!-- </center> -->
+							<!-- <img src="" alt="验证码" title="看不清？点击更换另一个验证码。" class="r_imgCaptcha fr"> -->
+						</p>
+						<i id="i2"></i>
+					</div>
+					<div class="box">
+						<p>
+							<em class="icon-a-note-code"></em>
+							<input type="text" class="ti imgCaptchaWrap fl" placeholder="短信验证码" maxlength="11"
+								id="duanxin">
+							<input class="r_stext" type="button" title="点击获取验证码" id="auth_code" placeholder="点击获取验证码"
+								value="点击获取验证码" style="font-size: 20px;font-weight: bolder;">
+							<input class="r_stext01 r_stext" type="button" title="点击获取验证码" id="duanXi"
+								placeholder="获取验证码" value="点击获取验证码" style="position: absolute;top:0px;right: 0px;">
+						</p>
+						<i id="i3"></i>
+					</div>
+					<div class="box">
+						<p><em class="icon-a-psd-icon"></em>
+							<input type="password" class="ti" id="password" placeholder="请设置密码请再次输入密码" value=""
+								maxlength="20">
+							<span class="ico icon-d-eye-close"></span>
+						</p>
+						<i id="i4"></i>
+					</div>
+					<div class="box">
+						<p><em class="icon-a-psd-icon"></em>
+							<input type="password" class="ti" id="confirm_password" placeholder="请再次输入密码" value=""
+								maxlength="20">
+							<span class="ico icon-d-eye-close"></span>
+						</p>
+						<i id="i5"></i>
+					</div>
+					<div class="box recommend">
+						<input type="text" placeholder="如有推荐人，请填写推荐人手机号">
+						<i></i>
+					</div>
+					<a href="javascript:;" class="register" id="register">立即注册</a>
+					<p class="condition">点击“立即注册”，即表示您同意并愿意遵守<a target="_blank" href="javascript:;">万表网用户协议</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+#Box {
+    /* margin: 100px auto; */
+    width: 500px;
+    height: 610px;
+}
+
+#box {
+    border: 1px solid #eee;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    cursor: move;
+    background-color: #fff;
+    /* padding: 9px; */
+    /* margin-bottom: 20px; */
+}
+
+#box .maximg {
+    width: 498px;
+    height: 498px;
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    background-color: #fff;
+    /* padding: 9px; */
+    
+}
+
+#box .maximg img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 498px;
+    height: 498px;
+}
+
+#box .move {
+    width: 100px;
+    height: 100px;
+    background: darkgrey;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    display: none;
+
+}
+
+#box .bimg {
+    width: 498px;
+    height: 498px;
+    position: absolute;
+    top: 0;
+    /* left: 330px; */
+    display: none;
+    overflow: hidden;
+
+}
+
+#box .bimg .b_bimg {
+    /* width: 600px;
+    height: 400px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#boxminimg {
+    margin:0 auto;
+    position: relative;
+    width: 500px;
+    height: 80px;
+    margin-top: 15px;
+}
+
+#boxminimg .minimg {
+    width: 485px;
+    height: 80px;
+    overflow: hidden;
+    /* margin-left: 30px; */
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#boxminimg .minimg ul {
+    height: 80px;
+    margin: 0 auto;
+    /* width: 450px; */
+    position: absolute;
+    top:0px;
+    left:0px;
+    text-align: center;
+    margin-left:24px;
+    overflow: hidden;
+
+}
+
+#boxminimg .minimg ul li {
+    
+    float: left;
+    margin-right:  10px;
+    text-align: center;
+    /* line-height: 78px; */
+    width: 78px;
+    height: 78px;
+    /* width: 64px;
+    height: 64px; */
+    /* padding: 7px; */
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(20,20,20,.4);
+    margin-top: 1px;
+    margin-left: 1px;
+    opacity: 0.5;
+   
+}
+#boxminimg .minimg ul li:hover{
+    opacity: 1;
+}
+
+#boxminimg .minimg img {
+    width: 64px;
+    height: 64px;
+    padding-top:7px;
+}
+
+#boxminimg span {
+    display: block;
+    /* background: darkgray; */
+    width: 30px;
+    height: 30px;
+    color: darkred;
+    position: absolute;
+    /* color: #ccc; */
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+
+}
+
+#boxminimg span:nth-of-type(1) {
+    left: 0px;
+    top: 30%;
+}
+
+#boxminimg span:nth-of-type(2) {
+    right: 0px;
+    top: 30%;
+}
+
+
